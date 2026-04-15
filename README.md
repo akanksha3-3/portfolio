@@ -357,7 +357,7 @@ cd portfolio
 #### Step 2: Project Structure Setup
 Ensure your folder structure matches:
 ```
-week1-portfolio/
+portfolio/
 ├── index.html
 ├── css/
 │   ├── variables.css
@@ -556,7 +556,7 @@ npx http-server
 
 #### 1. Desktop View - Home Section
 ```
-![Home section] (img/home.png)
+![portfolio](img/home.png)
 
 Features Demonstrated:
 - Responsive typography (H1: 48px)
@@ -567,7 +567,7 @@ Features Demonstrated:
 
 #### 2. Desktop View - Skills Section
 ```
-![skills section] (img/skills.png)
+![portfolio](img/skills.png)
 
 Features Demonstrated:
 - CSS Grid (4 columns)
@@ -578,7 +578,7 @@ Features Demonstrated:
 
 #### 3. Desktop View - Projects Section
 ```
-![projects section] (img/project.png)
+![portfolio](img/project.png)
 
 Features Demonstrated:
 - CSS Grid responsive layout
@@ -587,9 +587,9 @@ Features Demonstrated:
 - GitHub links
 ```
 
-#### 5. Mobile View - Full Page
+#### 4. Mobile View - Full Page
 ```
-![mobile view] (img/mobile-view.png)
+![portfolio](img/mobile-view.png)
 
 Features Demonstrated:
 - Mobile-first design
@@ -598,9 +598,9 @@ Features Demonstrated:
 - Optimized spacing
 ```
 
-#### 6. Mobile View - Menu Open
+#### 5. Mobile View - Menu Open
 ```
-![mobile-menu view] (img/mobile-menu.png)
+![portfolio](img/mobile-menu.png)
 
 Features Demonstrated:
 - Mobile menu animation
@@ -608,9 +608,9 @@ Features Demonstrated:
 - Touch-friendly tap targets
 ```
 
-#### 7. Contact Form - Validation
+#### 6. Contact Form - Validation
 ```
-![contact view] (img/contact-form.png)
+![portfolio](img/contact-form.png)
 
 Features Demonstrated:
 - Real-time validation
