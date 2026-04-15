@@ -1,5 +1,5 @@
 # Personal Portfolio Website - Akanksha Waghamode
-https://github.com/akanksha3-3/portfolio/blob/cae46ec2fcad5131a0ae8a74d9d84d6b1d63f2e4/images/home.png
+
 ## 📋 Project Overview
 
 ### Project Description
@@ -556,7 +556,7 @@ npx http-server
 
 #### 1. Desktop View - Home Section
 ```
-<img width="939" height="911" alt="home" src="https://github.com/user-attachments/assets/c8c2360f-913d-4460-af16-ec164e944086" />
+https://github.com/akanksha3-3/portfolio/blob/cae46ec2fcad5131a0ae8a74d9d84d6b1d63f2e4/images/home.png
 
 Features Demonstrated:
 - Responsive typography (H1: 48px)
@@ -567,7 +567,7 @@ Features Demonstrated:
 
 #### 2. Desktop View - Skills Section
 ```
-![portfolio](img/skills.png)
+https://github.com/akanksha3-3/portfolio/blob/b4b1feabd2246e3cc848913d0d5b8e8cdcfa6813/images/skills.png
 
 Features Demonstrated:
 - CSS Grid (4 columns)
@@ -578,7 +578,7 @@ Features Demonstrated:
 
 #### 3. Desktop View - Projects Section
 ```
-![portfolio](img/project.png)
+https://github.com/akanksha3-3/portfolio/blob/b4b1feabd2246e3cc848913d0d5b8e8cdcfa6813/images/project.png
 
 Features Demonstrated:
 - CSS Grid responsive layout
@@ -589,7 +589,7 @@ Features Demonstrated:
 
 #### 4. Mobile View - Full Page
 ```
-![portfolio](img/mobile-view.png)
+https://github.com/akanksha3-3/portfolio/blob/b4b1feabd2246e3cc848913d0d5b8e8cdcfa6813/images/mobile-view.png
 
 Features Demonstrated:
 - Mobile-first design
@@ -600,7 +600,7 @@ Features Demonstrated:
 
 #### 5. Mobile View - Menu Open
 ```
-![portfolio](img/mobile-menu.png)
+https://github.com/akanksha3-3/portfolio/blob/b4b1feabd2246e3cc848913d0d5b8e8cdcfa6813/images/mobile-menu.png
 
 Features Demonstrated:
 - Mobile menu animation
@@ -608,9 +608,9 @@ Features Demonstrated:
 - Touch-friendly tap targets
 ```
 
-#### 6. Contact Form - Validation
+#### 6. Contact Form
 ```
-![portfolio](img/contact-form.png)
+https://github.com/akanksha3-3/portfolio/blob/b4b1feabd2246e3cc848913d0d5b8e8cdcfa6813/images/contact.png
 
 Features Demonstrated:
 - Real-time validation
