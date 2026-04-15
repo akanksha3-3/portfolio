@@ -556,7 +556,7 @@ npx http-server
 
 #### 1. Desktop View - Home Section
 ```
-![Home section] (img/home.png)
+![Home section](img/home.png)
 
 Features Demonstrated:
 - Responsive typography (H1: 48px)
@@ -567,7 +567,7 @@ Features Demonstrated:
 
 #### 2. Desktop View - Skills Section
 ```
-![skills section] (img/skills.png)
+![skills section](img/skills.png)
 
 Features Demonstrated:
 - CSS Grid (4 columns)
@@ -578,7 +578,7 @@ Features Demonstrated:
 
 #### 3. Desktop View - Projects Section
 ```
-![projects section] (img/project.png)
+![projects section](img/project.png)
 
 Features Demonstrated:
 - CSS Grid responsive layout
@@ -589,7 +589,7 @@ Features Demonstrated:
 
 #### 5. Mobile View - Full Page
 ```
-![mobile view] (img/mobile-view.png)
+![mobile view](img/mobile-view.png)
 
 Features Demonstrated:
 - Mobile-first design
@@ -600,7 +600,7 @@ Features Demonstrated:
 
 #### 6. Mobile View - Menu Open
 ```
-![mobile-menu view] (img/mobile-menu.png)
+![mobile-menu view](img/mobile-menu.png)
 
 Features Demonstrated:
 - Mobile menu animation
@@ -610,7 +610,7 @@ Features Demonstrated:
 
 #### 7. Contact Form - Validation
 ```
-![contact view] (img/contact-form.png)
+![contact view](img/contact-form.png)
 
 Features Demonstrated:
 - Real-time validation
