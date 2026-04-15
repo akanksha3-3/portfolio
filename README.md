@@ -556,7 +556,9 @@ npx http-server
 
 #### 1. Desktop View - Home Section
 ```
-![Portfolio](https://raw.githubusercontent.com/akanksha3-3/portfolio/main/images/home.png)
+## Test Image
+
+![Test](images/home.png)
 
 Features Demonstrated:
 - Responsive typography (H1: 48px)
