@@ -15,12 +15,6 @@ A fully responsive personal portfolio website designed to showcase my skills, pr
   - Practice form validation and user interaction
 - **Career Goal**: Provide a central hub for potential employers, collaborators, and the professional community to learn about my work
 
-### Target Audience
-- Potential employers in Data Science and Bioinformatics fields
-- Academic collaborators and researchers
-- Recruiters looking for data science talent
-- Fellow students and developers interested in my projects
-
 ---
 
 ## 🚀 Features
@@ -31,7 +25,7 @@ A fully responsive personal portfolio website designed to showcase my skills, pr
    - Mobile hamburger menu for small screens
    - Active section highlighting on scroll
 
-2. **Hero Section**
+2. **Home Section**
    - Eye-catching introduction with gradient background
    - Call-to-action buttons
    - Social media integration
@@ -124,15 +118,14 @@ week1-portfolio/
 │   └── news.jpg              # News aggregator project
 │
 ├── README.md                  # Project documentation (this file)
-├── .gitignore                # Git ignore file
-└── SETUP_GUIDE.md            # Quick setup instructions
+└── .gitignore                # Git ignore file
 
 ```
 
 ### File Descriptions
 
 #### HTML Files
-- **index.html**: Main HTML document containing all sections (Hero, About, Skills, Projects, Experience, Contact)
+- **index.html**: Main HTML document containing all sections (Home, About, Skills, Projects, Experience, Contact)
 
 #### CSS Files
 - **variables.css**: Contains all CSS custom properties for colors, typography, spacing, shadows, and breakpoints
@@ -143,7 +136,7 @@ week1-portfolio/
 - **navigation.js**: Handles mobile menu toggle, smooth scrolling, form validation, and scroll animations
 
 #### Image Assets
-- Project screenshots and visual content (stored in `images/` directory)
+- Visual content (stored in `images/` directory)
 
 ---
 
@@ -447,13 +440,6 @@ npx http-server
 - All sections properly aligned
 - Hover effects working
 
-#### Tablet View (768px)
-✅ **Tested Features**:
-- Navigation switches to hamburger menu
-- 2-column or 1-column layouts adjust
-- Typography scales appropriately
-- Touch targets adequately sized (44x44px minimum)
-
 #### Mobile View (375px)
 ✅ **Tested Features**:
 - Hamburger menu functional
@@ -468,18 +454,7 @@ npx http-server
 - Physical device testing (iOS, Android)
 - BrowserStack for cross-device testing
 
-### 2. Browser Compatibility Testing
-
-| Browser | Version | Status | Notes |
-|---------|---------|--------|-------|
-| Chrome | 120+ | ✅ Pass | Full support |
-| Firefox | 115+ | ✅ Pass | Full support |
-| Safari | 16+ | ✅ Pass | Minor gradient rendering differences |
-| Edge | 120+ | ✅ Pass | Full support |
-| Mobile Safari | iOS 15+ | ✅ Pass | Touch interactions working |
-| Chrome Mobile | Android 12+ | ✅ Pass | Full support |
-
-### 3. Form Validation Testing
+### 2. Form Validation Testing
 
 #### Test Cases:
 
@@ -508,7 +483,7 @@ npx http-server
 - **Expected**: Success message, form reset, email sent via FormSpree
 - **Result**: ✅ Pass - FormSpree confirmation received
 
-### 4. Accessibility Testing
+### 3. Accessibility Testing
 
 #### WCAG 2.1 Compliance Checklist:
 
@@ -527,39 +502,28 @@ npx http-server
 
 **Testing Tools Used**:
 - WAVE (Web Accessibility Evaluation Tool)
-- Lighthouse Accessibility Audit (Score: 98/100)
 - Keyboard-only navigation test
-- Screen reader test (NVDA, VoiceOver)
+- Screen reader test
 
-#### Lighthouse Audit Results:
-```
-Performance: 95/100
-Accessibility: 98/100
-Best Practices: 100/100
-SEO: 100/100
-```
-
-### 5. Code Validation
+### 4. Code Validation
 
 #### HTML Validation (W3C Validator)
 - **URL**: https://validator.w3.org/
-- **Result**: ✅ Pass - 0 errors, 0 warnings
-- **Date**: December 2025
+- **Result**: 0 errors, 3 warnings
 
 #### CSS Validation (W3C CSS Validator)
 - **URL**: https://jigsaw.w3.org/css-validator/
-- **Result**: ✅ Pass - 0 errors
-- **Warnings**: 23 (vendor prefixes and CSS variables - expected)
-- **Date**: December 2025
+- **Result**:  0 errors
+- **Warnings**: 421 (vendor prefixes and CSS variables - expected)
 
-### 6. Performance Testing
+### 5. Performance Testing
 
-#### Load Time Analysis:
-- **First Contentful Paint**: 0.8s
-- **Largest Contentful Paint**: 1.2s
-- **Time to Interactive**: 1.5s
-- **Total Page Size**: 245 KB
-- **HTTP Requests**: 8
+#### Load Time Analysis (Desktop):
+- **First Contentful Paint**: 0.6s
+- **Largest Contentful Paint**: 0.6s
+- **Total Blocking Time**: 0 ms
+- **Cumulative Layout Shift**: 0
+- **Speed Index**: 0.9s
 
 #### Optimization Techniques Applied:
 - ✅ Minified CSS (production ready)
@@ -567,18 +531,7 @@ SEO: 100/100
 - ✅ External resources loaded via CDN
 - ✅ CSS loaded in `<head>`, JS at end of `<body>`
 
-### 7. Navigation Testing
-
-| Action | Expected Behavior | Result |
-|--------|------------------|--------|
-| Click nav link | Smooth scroll to section | ✅ Pass |
-| Click hamburger | Menu slides in | ✅ Pass |
-| Click outside menu | Menu closes | ✅ Pass |
-| Press Tab | Navigate through links | ✅ Pass |
-| Press Enter on link | Navigate to section | ✅ Pass |
-| Scroll page | Header stays sticky | ✅ Pass |
-
-### 8. Interactive Elements Testing
+### 6. Interactive Elements Testing
 
 #### Buttons and Links:
 - ✅ All hover effects working
@@ -601,10 +554,9 @@ SEO: 100/100
 
 ### Screenshots
 
-#### 1. Desktop View - Hero Section
+#### 1. Desktop View - Home Section
 ```
-[Full-width hero section with gradient background, name, title, 
-description, CTA buttons, and social media icons]
+![Home section] (img/home.png)
 
 Features Demonstrated:
 - Responsive typography (H1: 48px)
@@ -615,7 +567,7 @@ Features Demonstrated:
 
 #### 2. Desktop View - Skills Section
 ```
-[4-column grid layout with skill categories]
+![skills section] (img/skills.png)
 
 Features Demonstrated:
 - CSS Grid (4 columns)
@@ -626,7 +578,7 @@ Features Demonstrated:
 
 #### 3. Desktop View - Projects Section
 ```
-[3-column grid of project cards with images]
+![projects section] (img/project.png)
 
 Features Demonstrated:
 - CSS Grid responsive layout
@@ -635,19 +587,9 @@ Features Demonstrated:
 - GitHub links
 ```
 
-#### 4. Tablet View - Navigation
-```
-[Hamburger menu icon in header]
-
-Features Demonstrated:
-- Responsive navigation breakpoint
-- Hamburger menu appearance
-- Sticky header
-```
-
 #### 5. Mobile View - Full Page
 ```
-[Single-column layout with stacked sections]
+![mobile view] (img/mobile-view.png)
 
 Features Demonstrated:
 - Mobile-first design
@@ -658,7 +600,7 @@ Features Demonstrated:
 
 #### 6. Mobile View - Menu Open
 ```
-[Slide-in navigation menu overlay]
+![mobile-menu view] (img/mobile-menu.png)
 
 Features Demonstrated:
 - Mobile menu animation
@@ -668,7 +610,7 @@ Features Demonstrated:
 
 #### 7. Contact Form - Validation
 ```
-[Contact form with error messages displayed]
+![contact view] (img/contact-form.png)
 
 Features Demonstrated:
 - Real-time validation
@@ -676,41 +618,6 @@ Features Demonstrated:
 - Focus states
 - Accessible form labels
 ```
-
-#### 8. Accessibility Features
-```
-[Focus outlines visible on interactive elements]
-
-Features Demonstrated:
-- Keyboard focus indicators
-- ARIA labels
-- Semantic HTML structure
-```
-
-### Feature Demonstrations
-
-#### Responsive Grid System
-```
-Desktop (>1024px):  [Card] [Card] [Card]
-Tablet (768px):     [Card] [Card]
-Mobile (<480px):    [Card]
-                    [Card]
-                    [Card]
-```
-
-#### Color Contrast Examples
-```
-Text on Light Background:
-#2d3748 on #ffffff = 12.6:1 ✅ (WCAG AAA)
-
-Button Text:
-#ffffff on #667eea = 4.8:1 ✅ (WCAG AA)
-
-Links:
-#667eea on #ffffff = 5.2:1 ✅ (WCAG AA)
-```
-
----
 
 ## 🔧 Algorithms and Data Structures
 
@@ -953,42 +860,6 @@ sections.forEach(section => { /* ... */ });
 
 ---
 
-## 📈 Future Enhancements
-
-### Planned Features
-- [ ] Dark mode toggle with theme switcher
-- [ ] Blog section with article cards
-- [ ] Project filtering by technology
-- [ ] Animated skill bars with progress indicators
-- [ ] Testimonials carousel
-- [ ] Multi-language support (English/Hindi)
-- [ ] Progressive Web App (PWA) functionality
-- [ ] Advanced animations with GSAP library
-- [ ] Contact form with reCAPTCHA
-- [ ] Backend API for form handling
-
-### Performance Optimizations
-- [ ] Image lazy loading implementation
-- [ ] CSS and JS minification
-- [ ] Critical CSS inline in `<head>`
-- [ ] Web font optimization
-- [ ] Service worker for offline support
-
----
-
-## 🤝 Contributing
-
-This is a personal portfolio project, but suggestions and feedback are welcome!
-
-### How to Contribute
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -m 'Add some improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
----
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
@@ -1017,69 +888,5 @@ This project is open source and available under the [MIT License](LICENSE).
 - **Unsplash & Pexels**: Free stock images
 - **FormSpree**: Form backend service
 - **GitHub Pages**: Free hosting service
-
-### Special Thanks
-- **Web Development Community**: For endless resources and support
-- **Stack Overflow**: For quick problem-solving
-- **DevDocs**: For quick reference documentation
-
----
-
-## 📞 Support
-
-For questions, issues, or feedback:
-
-1. **Email**: akankshawaghamode2001@gmail.com
-2. **GitHub Issues**: [Create an issue](https://github.com/akanksha3-3/portfolio/issues)
-3. **LinkedIn**: [Message me](https://www.linkedin.com/in/akanksha-waghamode-25aa9724a/)
-
----
-
-## 📊 Project Statistics
-
-- **Total Lines of Code**: ~2,500
-- **HTML**: ~450 lines
-- **CSS**: ~1,800 lines
-- **JavaScript**: ~250 lines
-- **Development Time**: 15 hours
-- **Last Updated**: December 2025
-- **Version**: 1.0.0
-
----
-
-## ✅ Quality Standards Checklist
-
-### Documentation
-- [x] Clear project description
-- [x] Comprehensive feature list
-- [x] Detailed setup instructions
-- [x] Technology stack documentation
-- [x] Code structure explanation
-- [x] Visual documentation (screenshots)
-- [x] Testing evidence and results
-- [x] Known issues documented
-- [x] Future enhancements listed
-
-### Code Quality
-- [x] Semantic HTML5 markup
-- [x] Clean, organized CSS
-- [x] Modular JavaScript
-- [x] Consistent naming conventions
-- [x] Code comments where necessary
-- [x] Version control with Git
-
-### Testing
-- [x] Cross-browser compatibility
-- [x] Responsive design testing
-- [x] Form validation testing
-- [x] Accessibility testing (WCAG 2.1)
-- [x] Performance testing
-- [x] Code validation (W3C)
-
-### Deployment
-- [x] GitHub repository created
-- [x] README documentation complete
-- [x] Live demo deployed
-- [x] Contact form functional
 
 ---
