@@ -141,7 +141,7 @@ nav {
     transition: all var(--transition-base);
 }
 
-/* Hero Section */
+/* Home Section */
 .hero {
     min-height: 100vh;
     display: flex;
