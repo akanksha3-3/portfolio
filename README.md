@@ -556,9 +556,7 @@ npx http-server
 
 #### 1. Desktop View - Home Section
 ```
-## Test Image
-
-![Test](images/home.png)
+<img width="939" height="911" alt="home" src="https://github.com/user-attachments/assets/c8c2360f-913d-4460-af16-ec164e944086" />
 
 Features Demonstrated:
 - Responsive typography (H1: 48px)
