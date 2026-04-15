@@ -238,7 +238,7 @@ npx http-server
 - **Cumulative Layout Shift**: 0
 - **Speed Index**: 0.9s
 
----
+--- 
 
 ## 📄 License
 
